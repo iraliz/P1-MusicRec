@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MusicRec</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Sistema de Recomendación Musical - OLAP</h1>
+        </header>
+
+        <main>
+            <!-- Menú Principal -->
+            <section id="main-menu" class="menu-section">
+                <h2>Menú Principal</h2>
+                <div class="menu-options">
+                    <button id="btn-insert">Insertar registros</button>
+                    <button id="btn-query">Consultar registros</button>
+                    <button id="btn-import">Importar desde CSV</button>
+                    <button id="btn-exit">Salir</button>
+                </div>
+            </section>
+
+            <!-- Insertar Registros -->
+            <section id="insert-section" class="menu-section hidden">
+                <h2>Insertar Registro</h2>
+                <div class="menu-options">
+                    <button id="btn-insert-user">Insertar usuario</button>
+                    <button id="btn-insert-song">Insertar canción</button>
+                    <button id="btn-insert-listen">Insertar escucha</button>
+                    <button id="btn-back-insert">Volver</button>
+                </div>
+                
+                <!-- Formularios -->
+                <div id="insert-forms" class="forms-container">
+                    <!-- Insertar Usuario -->
+                    <form id="form-user" class="hidden">
+                        <h3>Nuevo Usuario</h3>
+                        <div class="form-group">
+                            <label for="user-name">Nombre:</label>
+                            <input type="text" id="user-name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="user-city">Ciudad:</label>
+                            <input type="text" id="user-city" required>
+                        </div>
+                        <button type="submit">Guardar</button>
+                        <p id="msg-user"></p>
+                    </form>
+                    
+                    <!-- Insertar Canción -->
+                    <form id="form-song" class="hidden">
+                        <h3>Nueva Canción</h3>
+                        <div class="form-group">
+                            <label for="song-artist">Artista:</label>
+                            <input type="text" id="song-artist" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="song-title">Título:</label>
+                            <input type="text" id="song-title" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="song-genre">Género:</label>
+                            <input type="text" id="song-genre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="song-duration">Duración (min):</label>
+                            <input type="number" step="0.1" id="song-duration" required>
+                        </div>
+                        <button type="submit">Guardar</button>
+                        <p id="msg-song"></p>
+                    </form>
+                    
+                    <!-- Insertar Escucha -->
+                    <form id="form-listen" class="hidden">
+                        <h3>Nueva Escucha</h3>
+                        <div class="form-group">
+                            <label for="listen-user">ID Usuario:</label>
+                            <input type="text" id="listen-user" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="listen-song">ID Canción:</label>
+                            <input type="text" id="listen-song" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="listen-date">Fecha (YYYY-MM-DD):</label>
+                            <input type="text" id="listen-date">
+                        </div>
+                        <button type="submit">Guardar</button>
+                        <p id="msg-listen"></p>
+                    </form>
+                </div>
+            </section>
+
+            <!-- Consultar Registros -->
+            <section id="query-section" class="menu-section hidden">
+                <h2>Consultar Registros</h2>
+                <div class="menu-options">
+                    <button id="btn-query-users">Usuarios</button>
+                    <button id="btn-query-songs">Canciones</button>
+                    <button id="btn-query-listens">Escuchas diarias</button>
+                    <button id="btn-query-top">Top Canciones</button>
+                    <button id="btn-back-query">Volver</button>
+            </section>
+
+            <!-- Sección para Top Canciones -->
+            <section id="top-section" class="menu-section hidden">
+                <h2>Top Canciones</h2>
+                <div class="menu-options">
+                    <button id="btn-top-user">Usuario</button>
+                    <button id="btn-top-genre">Género</button>
+                    <button id="btn-top-city">Ciudad</button>
+                    <button id="btn-back-top">Volver</button> <!-- añadido -->
+                </div>
+            </section>
+
+            <!-- Sección para Escuchas Diarias -->
+            <section id="daily-section" class="menu-section hidden">
+                <h2>Escuchas Diarias</h2>
+                <div class="menu-options">
+                    <button id="btn-daily-user">Usuario</button>
+                    <button id="btn-daily-genre">Género</button>
+                    <button id="btn-daily-city">Ciudad</button>
+                    <button id="btn-back-daily">Volver</button>
+                </div>
+            </section>
+
+            <!-- Ingresar Usuario para Top Canciones -->
+            <section id="top-user-section" class="menu-section hidden">
+                <form>
+                    <h2>Top Canciones por Usuario</h2>
+                    <label for="input-top-user">Ingrese un(a) usuario:</label>
+                    <input type="text" id="input-top-user">
+                    <button type="submit" id="btn-submit-top-user">Consultar</button>
+                    <button type="button" id="btn-back-top-user">Volver</button>
+                </form>
+            </section>
+
+            <!-- Ingresar Género para Top Canciones -->
+            <section id="top-genre-section" class="menu-section hidden">
+                <form>
+                    <h2>Top Canciones por Género</h2>
+                    <label for="input-top-genre">Ingrese un(a) género:</label>
+                    <input type="text" id="input-top-genre">
+                    <button type="submit" id="btn-submit-top-genre">Consultar</button>
+                    <button type="button" id="btn-back-top-genre">Volver</button>
+                </form>
+            </section>
+
+            <!-- Ingresar Ciudad para Top Canciones -->
+            <section id="top-city-section" class="menu-section hidden">
+                <form>
+                    <h2>Top Canciones por Ciudad</h2>
+                    <label for="input-top-city">Ingrese un(a) ciudad:</label>
+                    <input type="text" id="input-top-city">
+                    <button type="submit" id="btn-submit-top-city">Consultar</button>
+                    <button type="button" id="btn-back-top-city">Volver</button>
+                </form>
+            </section>
+
+
+            <!-- Importar CSV -->
+            <section id="import-section" class="menu-section hidden">
+                <h2>Importar desde CSV</h2>
+                <div class="menu-options">
+                    <button id="btn-import-users">Usuarios</button>
+                    <button id="btn-import-songs">Canciones</button>
+                    <button id="btn-import-listens">Escuchas</button>
+                    <button id="btn-back-import">Volver</button>
+                </div>
+                <p id="import-msg"></p>
+                
+                <div id="import-results" class="results-container">
+                    <!-- Resultados de importación se mostrarán aquí -->
+                </div>
+            </section>
+
+            <!-- Espacio para Tabla Dinámica -->
+            <section id="table-section" class="menu-section hidden">
+                <h2>Tabla</h2>
+                <p id="table-p"></p>
+                <!-- Aquí se insertará la tabla dinámicamente -->
+                <button id="btn-back-table">Volver al menú</button>
+                <div id="dynamic-table">
+                    <!-- Tabla dinámica se generará aquí -->
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="../scripts/consultas.js"></script>
+    <script src="../scripts/insertar.js"></script>
+    <script src="../scripts/navegar.js"></script>
+    <script src="../scripts/cargar_csv.js"> </script>
+
+</body>
+</html>

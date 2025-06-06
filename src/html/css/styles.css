@@ -1,0 +1,237 @@
+:root {
+    --primary-blue: #1a73e8;
+    --dark-blue: #0d47a1;
+    --light-blue: #e3f2fd;
+    --accent-yellow: #f9a825;
+    --dark-yellow: #f57f17;
+    --light-yellow: #fff8e1;
+    --text-dark: #333;
+    --text-light: #fff;
+    --success: #4caf50;
+    --error: #f44336;
+}
+
+table {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(26, 115, 232, 0.07);
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+table thead {
+    background-color: var(--primary-blue);
+}
+
+table th, table td {
+    padding: 14px 12px;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 1rem;
+}
+
+table th {
+    color: var(--text-light);
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    text-align: left;
+}
+
+table tr:last-child td {
+    border-bottom: none;
+}
+
+table tbody tr:nth-child(even) {
+    background-color: var(--light-blue);
+}
+
+table tbody tr:hover {
+    background-color: #e8f0fe;
+    transition: background 0.2s;
+}
+
+table td {
+    color: var(--text-dark);
+}
+
+table .delete-btn {
+    margin: 0;
+    padding: 6px 12px;
+    border-radius: 4px;
+    font-size: 0.95rem;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: var(--light-blue);
+    color: var(--text-dark);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-blue);
+    color: var(--text-light);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.connection-status {
+    background-color: var(--dark-blue);
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.menu-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.menu-section h2 {
+    color: var(--dark-blue);
+    margin-bottom: 20px;
+    text-align: center;
+    border-bottom: 2px solid var(--accent-yellow);
+    padding-bottom: 10px;
+}
+
+.menu-options {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+button {
+    background-color: var(--accent-yellow);
+    color: var(--text-dark);
+    border: none;
+    border-radius: 5px;
+    padding: 12px 15px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+button:hover {
+    background-color: var(--dark-yellow);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.forms-container, .results-container {
+    background-color: var(--light-yellow);
+    border-radius: 8px;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+button[type="submit"] {
+    background-color: var(--primary-blue);
+    color: white;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+button[type="submit"]:hover {
+    background-color: var(--dark-blue);
+}
+
+.hidden {
+    display: none;
+}
+
+.results-container table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+.results-container th,
+.results-container td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+.results-container th {
+    background-color: var(--primary-blue);
+    color: white;
+}
+
+.results-container tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.results-container tr:hover {
+    background-color: #f1f1f1;
+}
+
+.delete-btn {
+    background-color: var(--error);
+    color: white;
+    padding: 5px 10px;
+    font-size: 0.9rem;
+}
+
+.success-msg {
+    background-color: var(--success);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.error-msg {
+    background-color: var(--error);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 15px;
+}

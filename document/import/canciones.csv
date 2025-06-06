@@ -1,0 +1,99 @@
+cancion_id,artista,titulo,genero,duracion
+b3a1c1e0-1f2a-4d3b-9c4e-5f6a7b8c9d0e, The Beatles, Hey Jude, Rock, 7.11
+c4d2e3f4-5a6b-7c8d-9e0f-1a2b3c4d5e6f, Queen, Bohemian Rhapsody, Rock, 5.55
+d5e6f7a8-9b0c-1d2e-3f4a-5b6c7d8e9f0a, Adele, Rolling in the Deep, Pop, 3.48
+e6f7a8b9-0c1d-2e3f-4a5b-6c7d8e9f0a1b, Shakira, Hips Don't Lie, Latin, 3.38
+f7a8b9c0-1d2e-3f4a-5b6c-7d8e9f0a1b2c, Daft Punk, One More Time, Electronic, 5.20
+a8b9c0d1-2e3f-4a5b-6c7d-8e9f0a1b2c3d, Luis Fonsi, Despacito, Reggaeton, 3.47
+b9c0d1e2-3f4a-5b6c-7d8e-9f0a1b2c3d4e, Michael Jackson, Thriller, Pop, 5.57
+c0d1e2f3-4a5b-6c7d-8e9f-0a1b2c3d4e5f, Nirvana, Smells Like Teen Spirit, Grunge, 5.01
+d1e2f3a4-5b6c-7d8e-9f0a-1b2c3d4e5f6a, Coldplay, Viva la Vida, Alternative, 4.02
+e2f3a4b5-6c7d-8e9f-0a1b-2c3d4e5f6a7b, Rosalía, MALAMENTE, Flamenco, 2.30
+4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9c, Ed Sheeran, Shape of You, Pop, 3.53
+5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c0d, Billie Eilish, Bad Guy, Pop, 3.14
+6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d1e, The Weeknd, Blinding Lights, Synthpop, 3.20
+7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e2f, BTS, Dynamite, K-Pop, 3.19
+8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f3a, Dua Lipa, Levitating, Pop, 3.23
+9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a4b, Drake, God's Plan, Hip-Hop, 3.18
+0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b5c, Taylor Swift, Shake It Off, Pop, 3.39
+1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c6d, Imagine Dragons, Believer, Alternative, 3.24
+2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d7e, Maroon 5, Sugar, Pop, 3.55
+3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e8f, Post Malone, Circles, Hip-Hop, 3.35
+4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f9a, Camila Cabello, Havana, Pop, 3.36
+5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a0b, J Balvin, Mi Gente, Reggaeton, 3.06
+6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b1c, Lady Gaga, Poker Face, Pop, 3.57
+7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c2d, Bruno Mars, Uptown Funk, Funk, 4.30
+8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d3e, Katy Perry, Firework, Pop, 3.48
+9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e4f, Justin Bieber, Sorry, Pop, 3.20
+0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f5a, Ariana Grande, 7 rings, Pop, 2.58
+1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a6b, Shawn Mendes, Señorita, Pop, 3.11
+2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b7c, Sia, Chandelier, Pop, 3.36
+3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c8d, Avicii, Wake Me Up, EDM, 4.09
+4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d9e, The Rolling Stones, Satisfaction, Rock, 3.45
+5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e0f, Madonna, Like a Prayer, Pop, 5.41
+6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f1a, Eminem, Lose Yourself, Hip-Hop, 5.26
+7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a2b, Rihanna, Umbrella, R&B, 4.36
+8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b3c, Linkin Park, In the End, Rock, 3.36
+9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c4d, Mariah Carey, All I Want for Christmas Is You, Pop, 4.01
+0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d5e, Bon Jovi, Livin' on a Prayer, Rock, 4.09
+1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e6f, The Police, Every Breath You Take, Rock, 4.13
+2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f7a, The Killers, Mr. Brightside, Alternative, 3.43
+3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a8b, Oasis, Wonderwall, Britpop, 4.18
+4f5a6b7c-8d9e-0f1a-2b3c-4d5e6f7a8b9d, The Black Eyed Peas, I Gotta Feeling, Pop, 4.49
+5a6b7c8d-9e0f-1a2b-3c4d-5e6f7a8b9c1e, Pharrell Williams, Happy, Pop, 3.53
+6b7c8d9e-0f1a-2b3c-4d5e-6f7a8b9c0d2f, Gotye, Somebody That I Used to Know, Indie, 4.04
+7c8d9e0f-1a2b-3c4d-5e6f-7a8b9c0d1e3a, Mark Ronson, Uptown Funk, Funk, 4.30
+8d9e0f1a-2b3c-4d5e-6f7a-8b9c0d1e2f4b, Calvin Harris, Summer, EDM, 3.44
+9e0f1a2b-3c4d-5e6f-7a8b-9c0d1e2f3a5c, Luis Miguel, La Incondicional, Latin, 4.20
+0f1a2b3c-4d5e-6f7a-8b9c-0d1e2f3a4b6d, Daddy Yankee, Gasolina, Reggaeton, 3.13
+1a2b3c4d-5e6f-7a8b-9c0d-1e2f3a4b5c7e, Enrique Iglesias, Bailando, Latin, 4.03
+2b3c4d5e-6f7a-8b9c-0d1e-2f3a4b5c6d8f, Selena Gomez, Wolves, Pop, 3.17
+3c4d5e6f-7a8b-9c0d-1e2f-3a4b5c6d7e9a, Maluma, Felices los 4, Reggaeton, 3.49
+4d5e6f7a-8b9c-0d1e-2f3a-4b5c6d7e8f0b, Becky G, Mayores, Latin, 3.22
+5e6f7a8b-9c0d-1e2f-3a4b-5c6d7e8f9a1c, CNCO, Reggaetón Lento, Latin, 3.43
+6f7a8b9c-0d1e-2f3a-4b5c-6d7e8f9a0b2d, Morat, Besos en Guerra, Pop, 3.44
+7a8b9c0d-1e2f-3a4b-5c6d-7e8f9a0b1c3e, Reik, Me Niego, Latin, 3.41
+8b9c0d1e-2f3a-4b5c-6d7e-8f9a0b1c2d4f, Sebastián Yatra, Traicionera, Latin, 3.55
+9c0d1e2f-3a4b-5c6d-7e8f-9a0b1c2d3e5a, Pablo Alborán, Solamente Tú, Pop, 4.07
+0d1e2f3a-4b5c-6d7e-8f9a-0b1c2d3e4f6b, David Bisbal, Ave María, Latin, 3.43
+1e2f3a4b-5c6d-7e8f-9a0b-1c2d3e4f5a7c, Alejandro Sanz, Corazón Partío, Latin, 5.45
+2f3a4b5c-6d7e-8f9a-0b1c-2d3e4f5a6b8d, Maná, Rayando el Sol, Rock, 4.38
+3a4b5c6d-7e8f-9a0b-1c2d-3e4f5a6b7c9e, Soda Stereo, De Música Ligera, Rock, 3.33
+4b5c6d7e-8f9a-0b1c-2d3e-4f5a6b7c8d0f, Juanes, La Camisa Negra, Latin, 3.36
+5c6d7e8f-9a0b-1c2d-3e4f-5a6b7c8d9e1a, Carlos Vives, La Bicicleta, Latin, 3.47
+6d7e8f9a-0b1c-2d3e-4f5a-6b7c8d9e0f2b, Romeo Santos, Propuesta Indecente, Bachata, 3.55
+7e8f9a0b-1c2d-3e4f-5a6b-7c8d9e0f1a3c, Prince Royce, Darte un Beso, Bachata, 3.26
+8f9a0b1c-2d3e-4f5a-6b7c-8d9e0f1a2b4d, Shakira, Waka Waka, Pop, 3.22
+9a0b1c2d-3e4f-5a6b-7c8d-9e0f1a2b3c5e, Ricky Martin, Livin' la Vida Loca, Latin, 4.03
+0b1c2d3e-4f5a-6b7c-8d9e-0f1a2b3c4d7f, Marc Anthony, Vivir Mi Vida, Salsa, 4.12
+1c2d3e4f-5a6b-7c8d-9e0f-1a2b3c4d5e8a, Gloria Estefan, Conga, Latin, 4.15
+2d3e4f5a-6b7c-8d9e-0f1a-2b3c4d5e6f9b, Juan Gabriel, Querida, Ballad, 6.34
+3e4f5a6b-7c8d-9e0f-1a2b-3c4d5e6f7a0c, Raphael, Mi Gran Noche, Pop, 3.10
+a1b2c3d4-5e6f-7a8b-9c0d-1e2f3a4b5c9d, The Strokes, Last Nite, Indie Rock, 3.17
+b2c3d4e5-6f7a-8b9c-0d1e-2f3a4b5c6d0e, Arctic Monkeys, Do I Wanna Know?, Indie Rock, 4.32
+c3d4e5f6-7a8b-9c0d-1e2f-3a4b5c6d7e1f, Lana Del Rey, Summertime Sadness, Pop, 4.25
+d4e5f6a7-8b9c-0d1e-2f3a-4b5c6d7e8f2a, The Chainsmokers, Closer, EDM, 4.05
+e5f6a7b8-9c0d-1e2f-3a4b-5c6d7e8f9a3b, Sam Smith, Stay With Me, Pop, 2.52
+f6a7b8c9-0d1e-2f3a-4b5c-6d7e8f9a0b4c, Calvin Harris, Feel So Close, EDM, 3.26
+a7b8c9d0-1e2f-3a4b-5c6d-7e8f9a0b1c5d, OneRepublic, Counting Stars, Pop, 4.17
+b8c9d0e1-2f3a-4b5c-6d7e-8f9a0b1c2d6e, Ellie Goulding, Love Me Like You Do, Pop, 4.12
+c9d0e1f2-3a4b-5c6d-7e8f-9a0b1c2d3e7f, Calvin Harris, Sweet Nothing, EDM, 3.33
+d0e1f2a3-4b5c-6d7e-8f9a-0b1c2d3e4f8a, Zedd, Clarity, EDM, 4.31
+e1f2a3b4-5c6d-7e8f-9a0b-1c2d3e4f5a9b, Lorde, Royals, Pop, 3.10
+f2a3b4c5-6d7e-8f9a-0b1c-2d3e4f5a6b0c, Portugal. The Man, Feel It Still, Alternative, 2.43
+a3b4c5d6-7e8f-9a0b-1c2d-3e4f5a6b7c1d, Harry Styles, Sign of the Times, Pop, 5.40
+b4c5d6e7-8f9a-0b1c-2d3e-4f5a6b7c8d2e, Shawn Mendes, In My Blood, Pop, 3.31
+c5d6e7f8-9a0b-1c2d-3e4f-5a6b7c8d9e3f, Camila Cabello, Never Be the Same, Pop, 3.47
+d6e7f8a9-0b1c-2d3e-4f5a-6b7c8d9e0f4a, Marshmello, Happier, EDM, 3.34
+e7f8a9b0-1c2d-3e4f-5a6b-7c8d9e0f1a5b, Jonas Brothers, Sucker, Pop, 3.01
+f8a9b0c1-2d3e-4f5a-6b7c-8d9e0f1a2b6c, Ava Max, Sweet but Psycho, Pop, 3.07
+a9b0c1d2-3e4f-5a6b-7c8d-9e0f1a2b3c7d, Tones and I, Dance Monkey, Pop, 3.29
+b0c1d2e3-4f5a-6b7c-8d9e-0f1a2b3c4d8e, Lewis Capaldi, Someone You Loved, Pop, 3.02
+c1d2e3f4-5a6b-7c8d-9e0f-1a2b3c4d5e9f, Billie Eilish, everything i wanted, Pop, 4.05
+d2e3f4a5-6b7c-8d9e-0f1a-2b3c4d5e6f0a, Ed Sheeran, Perfect, Pop, 4.23
+e3f4a5b6-7c8d-9e0f-1a2b-3c4d5e6f7a1b, Dua Lipa, Don't Start Now, Pop, 3.03
+f4a5b6c7-8d9e-0f1a-2b3c-4d5e6f7a8b2c, The Weeknd, Save Your Tears, Synthpop, 3.36
+a5b6c7d8-9e0f-1a2b-3c4d-5e6f7a8b9c3d, Olivia Rodrigo, drivers license, Pop, 4.02
+b6c7d8e9-0f1a-2b3c-4d5e-6f7a8b9c0d4e, BTS, Butter, K-Pop, 2.44
+c7d8e9f0-1a2b-3c4d-5e6f-7a8b9c0d1e5f, Justin Bieber, Peaches, Pop, 3.18
+d8e9f0a1-2b3c-4d5e-6f7a-8b9c0d1e2f6a, Doja Cat, Say So, Pop, 3.58
